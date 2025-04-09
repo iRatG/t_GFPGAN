@@ -1,0 +1,7 @@
+python-telegram-bot==13.7
+torch==1.12.1
+torchvision==0.13.1
+basicsr
+facexlib
+opencv-python
+numpy
