@@ -1,0 +1,31 @@
+# Конфиденциальные данные
+bot/config.py
+*.db
+
+# Модели GFPGAN (большие файлы)
+*.pth
+models/
+weights/
+pretrained_models/
+
+# Временные файлы и директории
+temp_inputs/
+temp_outputs/
+__pycache__/
+*.pyc
+.pytest_cache/
+.idea/
+.vscode/
+
+# Виртуальное окружение
+venv_bot/
+env/
+.env/
+
+# Логи и кэш
+*.log
+.cache/
+
+# Системные файлы
+.DS_Store
+Thumbs.db
